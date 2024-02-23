@@ -104,11 +104,10 @@ books.forEach((value)=>{
 )
 */
 // Log only those books which have more than 300 pages, are printed after 1900 and in the genre of "Dystopian Fiction"
-/*
+
 books.forEach((value)=>{
-    if(value.pages>300 && value.year>1990 && value.genre=='Dystopian Fiction'){
+    if(value.pages>300 && value.year>1900 && value.genre=='Dystopian Fiction'){
     console.log(value)
     }
 }
 )
-*/
